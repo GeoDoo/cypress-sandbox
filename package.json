@@ -1,0 +1,12 @@
+{
+  "name": "cypress-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "George Karametas <geometas@hotmail.com> (https://geodoo.work/)",
+  "license": "MIT"
+}
