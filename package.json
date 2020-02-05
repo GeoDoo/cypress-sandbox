@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "George Karametas <geometas@hotmail.com> (https://geodoo.work/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "3.8.3"
+  }
 }
