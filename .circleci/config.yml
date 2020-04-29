@@ -21,4 +21,4 @@ jobs:
           paths:
             - ~/.npm
             - ~/.cache
-      - run: npm test:ci
+      - run: npm run test:ci
