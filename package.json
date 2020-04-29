@@ -4,16 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run",
+    "test:interactive": "cypress open"
   },
   "keywords": [],
   "author": "George Karametas <geometas@hotmail.com> (https://geodoo.work/)",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "3.8.3"
+    "cypress": "^4.5.0"
   },
   "dependencies": {
-    "react": "16.12.0",
-    "react-dom": "16.12.0"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
