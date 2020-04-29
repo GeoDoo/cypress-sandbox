@@ -1,8 +1,18 @@
 <html>
   <body>
-    <div id="root"></div>
-
+    <div id="root">Hey</div>
+    <br />
     <input type="text" id="email" />
     <input type="password" id="password" />
+
+    <script>
+      const email = document.getElementById("password");
+
+      email.addEventListener("input", (event) => {
+        const value = `Hey, ${event.target.value.trim()}`;
+
+        document.getElementById("root").textContent = value;
+      });
+    </script>
   </body>
 </html>
