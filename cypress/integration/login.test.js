@@ -3,7 +3,7 @@ describe("Login", () => {
     cy.fixture("user.json").then(({ email }) => {
       cy.login(email, Cypress.env("password"))
         .get("#root")
-        .should("contain", Cypress.env("password"));
+        .should("contain", email);
     });
   });
 });
