@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run",
-    "test:i": "cypress open",
+    "test:interactive": "cypress open",
+    "test:ci": "start-server-and-test start http-get://localhost:3000 test",
     "start": "http-server ./client -p 3000"
   },
   "keywords": [],
@@ -13,7 +14,8 @@
   "license": "MIT",
   "devDependencies": {
     "cypress": "^4.5.0",
-    "http-server": "^0.12.3"
+    "http-server": "^0.12.3",
+    "start-server-and-test": "^1.11.0"
   },
   "dependencies": {
     "react": "^16.13.1",
